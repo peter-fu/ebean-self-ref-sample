@@ -20,3 +20,6 @@ RUNNING_PID
 
 # ignore Mac OS .DS_Store file
 .DS_Store
+
+# ignore evolution sql scripts
+/conf/evolutions
