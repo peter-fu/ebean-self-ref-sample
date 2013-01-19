@@ -6,7 +6,7 @@ A sample app demonstrating the problem a query against a self-referenced model u
 Usage
 =====================
 
-Simply run the app then access http://localhost:9000, the following json string will show up indicating that the third customer information is not fully loaded (it's only a reference).
+Simply run the app then access [http://localhost:9000](http://localhost:9000), the following json string will show up indicating that the third customer information is not fully loaded (it's only a reference).
 
 ```
 [{"id":3,"name":"baz","referredBy":{"id":1}},{"id":2,"name":"Bar","referredBy":{"id":1}},{"id":1}]
@@ -14,7 +14,7 @@ Simply run the app then access http://localhost:9000, the following json string 
 
 ### Additional SQL ###
 
-Access http://localhost:9000/additional-sql and watch the output from console, there is an additional SQL executed when trying to access Customer(2)'s name.
+Access [http://localhost:9000/additional-sql](http://localhost:9000/additional-sql) and watch the output from console, there is an additional SQL executed when trying to access Customer(2)'s name.
 
 ```
 [debug] application - Application.additionalSql
