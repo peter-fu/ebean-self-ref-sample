@@ -6,6 +6,6 @@ A sample app demonstrating the problem a query against a self-referenced model u
 Usage
 =====================
 
-Simple run the app then access http://localhost:9000, the following json string will show up indicating that the third customer information is not fully loaded (it's only a reference).
+Simply run the app then access http://localhost:9000, the following json string will show up indicating that the third customer information is not fully loaded (it's only a reference).
 
 [{"id":3,"name":"baz","referredBy":{"id":1}},{"id":2,"name":"Bar","referredBy":{"id":1}},{"id":1}]
