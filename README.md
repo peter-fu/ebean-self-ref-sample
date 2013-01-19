@@ -10,7 +10,7 @@ Simply run the app then access http://localhost:9000, the following json string 
 
 [{"id":3,"name":"baz","referredBy":{"id":1}},{"id":2,"name":"Bar","referredBy":{"id":1}},{"id":1}]
 
-Additional SQL
+### Additional SQL ###
 
 Access http://localhost:9000/additional-sql and watch the output from console, there is an additional SQL executed when trying to access Customer(2)'s name.
 
