@@ -14,6 +14,7 @@ Simply run the app then access http://localhost:9000, the following json string 
 
 Access http://localhost:9000/additional-sql and watch the output from console, there is an additional SQL executed when trying to access Customer(2)'s name.
 
+```
 [debug] application - Application.additionalSql
 [debug] c.j.b.PreparedStatementHandle - select t0.id c0, t0.name c1, t0.referred_by_id c2 
 from customer t0 
@@ -23,3 +24,4 @@ order by t0.id desc
 from customer t0
 where t0.id = 2  
 [debug] application - Before converting to JSON
+```
