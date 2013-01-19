@@ -1,7 +1,7 @@
 ebean-self-ref-sample
 =====================
 
-A sample app demonstrating the problem a query against a self-referenced model using ebean based on play-2.1-rc2
+A sample app demonstrating the problem about query against a self-referenced model using ebean based on Play-2.1-RC2.
 
 Usage
 =====================
